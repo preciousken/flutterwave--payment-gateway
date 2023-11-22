@@ -333,10 +333,49 @@ const configData = {
         'UGX', 'USD', 'XAF', 'XOF', 'ZAR',
         'ZMK', 'ZMW', 'MWK'
       ],
+      "CZK":[
+        'AED', 'ARS', 'AUD', 'CAD', 'CHF',
+        'CZK', 'ETB', 'EUR', 'GBP', 'GHS',
+        'ILS', 'INR', 'JPY', 'KES', 'MAD',
+        'MUR', 'MYR', 'NGN', 'NOK', 'NZD',
+        'PEN', 'PLN', 'RUB', 'RWF', 'SAR',
+        'SEK', 'SGD', 'SLL', 'TZS', 'UGX',
+        'USD', 'XAF', 'XOF', 'ZAR', 'ZMK',
+        'ZMW'
+      ],
+      "ETB":[
+        'AED', 'ARS', 'AUD', 'CAD', 'CHF',
+        'CZK', 'ETB', 'EUR', 'GBP', 'GHS',
+        'ILS', 'INR', 'JPY', 'KES', 'MAD',
+        'MUR', 'MYR', 'NGN', 'NOK', 'NZD',
+        'PEN', 'PLN', 'RUB', 'RWF', 'SAR',
+        'SEK', 'SGD', 'SLL', 'TZS', 'UGX',
+        'USD', 'XAF', 'XOF', 'ZAR', 'ZMK',
+        'ZMW'
+      ],
+      "TZS":[
+        'AED', 'ARS', 'AUD', 'CAD', 'CHF',
+        'CZK', 'ETB', 'EUR', 'GBP', 'GHS',
+        'ILS', 'INR', 'JPY', 'KES', 'MAD',
+        'MUR', 'MYR', 'NGN', 'NOK', 'NZD',
+        'PEN', 'PLN', 'RUB', 'RWF', 'SAR',
+        'SEK', 'SGD', 'SLL', 'TZS', 'UGX',
+        'USD', 'XAF', 'XOF', 'ZAR', 'ZMK',
+        'ZMW'
+      ],
+      "ZAR":[
+        'AED', 'ARS', 'AUD', 'CAD', 'CHF',
+        'CZK', 'ETB', 'EUR', 'GBP', 'GHS',
+        'ILS', 'INR', 'JPY', 'KES', 'MAD',
+        'MUR', 'MYR', 'NGN', 'NOK', 'NZD',
+        'PEN', 'PLN', 'RUB', 'RWF', 'SAR',
+        'SEK', 'SGD', 'SLL', 'TZS', 'UGX',
+        'USD', 'XAF', 'XOF', 'ZAR', 'ZMK',
+        'ZMW'
+      ],
 
-      /////////////////
-      "ZMW":[
-        'BRL', 'AED', 'ARS', 'AUD', 'CAD',
+      "GBP":[
+        'AED', 'ARS', 'AUD', 'BRL', 'CAD',
         'CHF', 'CZK', 'ETB', 'EUR', 'GBP',
         'GHS', 'ILS', 'INR', 'JPY', 'KES',
         'MAD', 'MUR', 'MYR', 'NGN', 'NOK',
@@ -345,6 +384,9 @@ const configData = {
         'UGX', 'USD', 'XAF', 'XOF', 'ZAR',
         'ZMK', 'ZMW', 'MWK'
       ],
+      "MWK":["MWK"],
+      "TRY":["NGN"],
+      "XAF":["XAF"]
     }
 }
 
