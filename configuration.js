@@ -16,7 +16,7 @@ const configData = {
       'ZMW', 'MWK', 'BRL'
     ],
     COUNTRIES:["NG","GH","KE","UG","ZA","TZ"],
-    BANKID:"255",
+    BANKID:"280",
 }
 
 module.exports = {configData}
