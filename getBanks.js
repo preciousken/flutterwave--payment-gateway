@@ -1,6 +1,7 @@
 var request = require('request');
 const { configData } = require('./configuration');
 
+
 var options = {
   'method': 'GET',
   'url': `${configData.FLUTTER_BASE_API_URL}/banks/${configData.COUNTRIES[1]}`,
