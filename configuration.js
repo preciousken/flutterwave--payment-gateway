@@ -12,7 +12,8 @@ const configData = {
         'SEK', 'SGD', 'SLL', 'TZS', 'UGX',
         'USD', 'XAF', 'XOF', 'ZAR', 'ZMK',
         'ZMW', 'MWK', 'BRL'
-      ]
+      ],
+    COUNTRIES:["NG","GH","KE","UG","ZA","TZ"]
 }
 
 module.exports = {configData}
