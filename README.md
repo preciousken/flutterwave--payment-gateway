@@ -1,6 +1,6 @@
 # flutterwave--payment-gateway
 
-``js
+``
 npm i flutterwave-node-v3
 ``
 
