@@ -13,7 +13,8 @@ const configData = {
         'USD', 'XAF', 'XOF', 'ZAR', 'ZMK',
         'ZMW', 'MWK', 'BRL'
       ],
-    COUNTRIES:["NG","GH","KE","UG","ZA","TZ"]
+    COUNTRIES:["NG","GH","KE","UG","ZA","TZ"],
+    BANKID:"255",
 }
 
 module.exports = {configData}

@@ -3,7 +3,7 @@ const { configData } = require('./configuration');
 
 var options = {
   'method': 'GET',
-  'url': `${configData.FLUTTER_BASE_API_URL}/banks/${configData.COUNTRIES[1]}`,
+  'url': `${configData.FLUTTER_BASE_API_URL}/banks/${configData.BANKID}/branches`,
   'headers': {
     'Authorization': `Bearer ${configData.FLUTTER_SECRET_KEY}`
   }
