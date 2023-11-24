@@ -17,6 +17,7 @@ const configData = {
     ],
     COUNTRIES:["NG","GH","KE","UG","ZA","TZ"],
     BANKID:"280",
+    TRANSACTION_AMOUNT:1000,
 
     CURRENCY_MATCH:{
       // SENDER => RECEIVER
@@ -387,6 +388,22 @@ const configData = {
       "MWK":["MWK"],
       "TRY":["NGN"],
       "XAF":["XAF"]
+    },
+    CURRENCY_MIN_TRANSFER:{
+      "NGN":100,
+      "USD":1000,
+      "ZAR":20,
+      "GHS":9,
+      "KES":20,
+      "GBP":1000,
+      "EUR":1000,
+      "TZS":500,
+      "UGX":1000,
+      "RWF":300,
+      "XAF":300,
+      "XOF":300,
+      "ZMW":100,
+      // other currencies need equivalent of $1,000
     }
 }
 
