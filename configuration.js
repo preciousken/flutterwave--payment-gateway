@@ -16,6 +16,9 @@ const configData = {
       'ZMW', 'MWK', 'BRL'
     ],
     COUNTRIES:["NG","GH","KE","UG","ZA","TZ"],
+
+    // manually added
+    ORDER_REF:'URF_1700850895758_5025135',
     BANKID:"280",
     TRANSACTION_AMOUNT:1000,
     TRANSACTION_ID:3239748239,

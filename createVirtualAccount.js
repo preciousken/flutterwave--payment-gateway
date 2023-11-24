@@ -14,7 +14,6 @@ const createVirtualCard = async() => {
         "narration":"Add_the_name_of_account_here"
      }
      
-
      try {
         const response = await axios.post(
             `${configData.FLUTTER_BASE_API_URL}/virtual-account-numbers`,
