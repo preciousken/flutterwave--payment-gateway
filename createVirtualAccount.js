@@ -1,7 +1,7 @@
 const axios = require('axios');
 const { configData } = require('./configuration');
 
-const createVirtualCard = async() => {
+const createVirtualAccount = async() => {
 
     const data = {
         "email":"user@gmail.com",
@@ -13,7 +13,7 @@ const createVirtualCard = async() => {
         "lastname":"Developers",
         "narration":"Add_the_name_of_account_here"
      }
-     
+
      try {
         const response = await axios.post(
             `${configData.FLUTTER_BASE_API_URL}/virtual-account-numbers`,
@@ -31,4 +31,4 @@ const createVirtualCard = async() => {
     }
 
 }
-createVirtualCard()
+createVirtualAccount()
