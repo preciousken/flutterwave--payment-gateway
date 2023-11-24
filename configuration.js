@@ -18,6 +18,7 @@ const configData = {
     COUNTRIES:["NG","GH","KE","UG","ZA","TZ"],
     BANKID:"280",
     TRANSACTION_AMOUNT:1000,
+    TRANSACTION_ID:3239748239,
 
     CURRENCY_MATCH:{
       // SENDER => RECEIVER
